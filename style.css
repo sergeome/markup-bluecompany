@@ -1,24 +1,37 @@
-/*
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 img {
-    border: 0;
+border: 0;
 }
-*/
+
 
 body{
- background-color: #17456d;
+    background-color: #17456d;
 }
 
 .main {
     display: block;
     background: white;
     margin: 150px 390px 170px;
+    background: white;
 }
 
 h3{
-    
+    padding: 50px 0 0;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.header-left {
+
+}
+
+p {
+    color: cornflowerblue;
+    text-align: center;
+    margin: 0 20px 0;
+    padding: 30px 0 0;
 }
