@@ -113,6 +113,7 @@ h3{
     clear: both;
     display: block;
     background: white;
+    border-radius: 5px;
     margin: 0 390px 170px;
     background: white;
 }
@@ -148,6 +149,7 @@ h3{
 }
 
 .services {
+    border-radius: 5px;
     padding: 0 0 50px 0;
     background: #a0d3dd
 }
