@@ -143,6 +143,11 @@ h3{
 
 .offer-block {
     display: inline-block;
-    margin: 50px 0 50px 120px;
+    margin: 50px 0 50px 100px;
     background: red;
+}
+
+.services {
+    padding: 0 0 50px 0;
+    background: #a0d3dd
 }
