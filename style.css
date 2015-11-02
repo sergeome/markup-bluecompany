@@ -56,7 +56,7 @@ h3{
 }
 .navi-buttons {
     float: right;
-    margin: 10px 380px 0 0;
+    margin: 18px 380px 0 0;
 }
 
 .navi-button:last-child{
@@ -68,7 +68,7 @@ h3{
     color: white;
     text-decoration: none;
     font-weight: 100;
-    font-size: medium;
+    font-size: small;
     text-align: center;
     padding: 5px 10px;
     border-right: 1px solid #000000;
@@ -77,9 +77,9 @@ h3{
     display: inline-block;
     color: white;
     font-weight: 100;
-    font-size: medium;
+    font-size: small;
     text-decoration: none;
-    background: #568cbc;
+    background: #568cbc;    
     border-radius: 5px;
     text-align: center;
     padding: 5px 10px;
