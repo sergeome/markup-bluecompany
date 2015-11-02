@@ -37,7 +37,7 @@ h3{
 .header {
     float: left;
     width: 100%;
-    margin: 100px 0 20px 0;
+    margin: 50px 0 20px 0;
 }
 .header-left {
 }
@@ -58,6 +58,11 @@ h3{
     float: right;
     margin: 10px 380px 0 0;
 }
+
+.navi-button:last-child{
+    border-right: none;
+}
+
 .navi-button {
     display: inline-block;
     color: white;
@@ -79,26 +84,7 @@ h3{
     text-align: center;
     padding: 5px 10px;
 }
-.navi-button-last {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: medium;
-    text-align: center;
-    padding: 5px 10px;
-}
-.navi-button-last:hover {
-    display: inline-block;
-    color: white;
-    font-weight: 100;
-    font-size: medium;
-    text-decoration: none;
-    background: #568cbc;
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px 10px;
-}
+
 .left-title {
     margin: 0 0 0 390px;
 }
@@ -128,7 +114,7 @@ h3{
 .offers {
     margin: 10px 0 10px 0;
     border-top: 1px solid #dedede;
-    padding: 30px 50px;
+    padding: 30px 0 30px 30px;
 }
 
 .offer-block:last-child {
@@ -137,23 +123,40 @@ h3{
 
 .offer-block {
     display: inline-block;
-    margin-right: 12%;
-    background: red;
+    margin-right: 2%;
+    background: #ebf2f7;
+    width: 17%;
+    border: 1px solid #dedede;
 }
 
 .offer-header {
     display: block;
-    width: 100%;
-    height: 20px;
     text-align: center;
+    background: #f8f8f8;
+    padding: 10px 0;
+    color: #184771;
+    font-weight: bold;
+    height: 50px;
 }
 .offer-content {
     display: block;
     text-align: center;
+    padding: 20px 0;
+    background: white;
+}
+
+.content-image{
+    width: 65px; 
+    height: 65px;
 }
 .offer-button {
     display: block;
     text-align: center;
+    margin: 15px 30px;
+    padding: 5px 8px;
+    background: #16436a;
+    border-radius: 3px;
+    color: white;
 }
 
 .services {
