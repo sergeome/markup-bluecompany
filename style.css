@@ -112,9 +112,10 @@ h3{
 .main {
     clear: both;
     display: block;
+    width: 55%;
     background: white;
     border-radius: 5px;
-    margin: 0 390px 170px;
+    margin: auto;
     background: white;
 }
 
