@@ -38,7 +38,7 @@ h3{
 .header {
     float: left;
     width: 100%;
-    margin: 50px 0 20px 0;
+    margin: 60px 0 20px 0;
 }
 .header-left {
 }
@@ -95,7 +95,7 @@ h3{
     width: 55%;
     background: white;
     border-radius: 5px;
-    margin: auto;
+    margin: 0 390px 0;
     background: white;
 }
 .main-title {
