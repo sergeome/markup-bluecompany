@@ -57,7 +57,7 @@ h3{
 }
 .navi-buttons {
     float: right;
-    margin: 18px 380px 0 0;
+    margin: 1% 17% 0 0;
 }
 
 .navi-button:last-child{
@@ -87,15 +87,14 @@ h3{
 }
 
 .left-title {
-    margin: 0 0 0 390px;
+    margin: 0 0 0 17%;
 }
 .main {
     clear: both;
     display: block;
-    width: 55%;
     background: white;
     border-radius: 5px;
-    margin: 0 390px 0;
+    margin: 0 17% 0;
     background: white;
 }
 .main-title {
