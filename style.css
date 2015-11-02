@@ -138,6 +138,7 @@ h3{
     color: #184771;
     font-weight: bold;
     height: 50px;
+    word-spacing: 999px; 
 }
 .offer-content {
     display: block;
