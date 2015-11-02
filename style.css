@@ -145,6 +145,8 @@ h3{
     text-align: center;
     padding: 20px 0;
     background: white;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
 }
 
 .content-image{
