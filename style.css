@@ -36,12 +36,12 @@ h3{
     color: #184771;
     font-size: xx-large;
 }
-.header {
-    float: left;
-    width: 100%;
-    margin: 60px 0 20px 0;
+.header {    
+    max-width: 900px;
+    margin: 60px auto 20px auto;
 }
-.header-left {
+.left-title {
+    margin: 0 0 0 10px;
 }
 .logo {
     float: left;
@@ -58,7 +58,7 @@ h3{
 }
 .navi-buttons {
     float: right;
-    margin: 1% 17% 0 0;
+    margin: 1% 0 0 0;
 }
 
 .navi-button:last-child{
@@ -87,15 +87,14 @@ h3{
     padding: 5px 10px;
 }
 
-.left-title {
-    margin: 0 0 0 17%;
-}
+
 .main {
     clear: both;
     display: block;
     background: white;
     border-radius: 5px;
-    margin: 0 17% 0;
+    margin: 0 auto 0 auto;
+    max-width: 900px;
     padding: 50px 0 0 0;
     background: white;
 }
@@ -189,9 +188,9 @@ h3{
 }
 
 .footer {
-    float: left;
-    margin: 10px 0 20px 0;
-    padding: 0 17%;
+    margin: 10px auto 20px auto;
+    max-width: 900px;
+    padding: 0 0 0 40px;
 }
 
 .copyright {
