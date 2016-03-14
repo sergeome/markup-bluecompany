@@ -37,19 +37,19 @@ h3{
     font-size: xx-large;
 }
 .wrapper{
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto 0 auto;
 }
 .header {    
-    margin: 60px 0 20px 0;
+    margin: 56px 0 29px 0;
 }
 .left-title {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 22px;
 }
 .logo {
     float: left;
     position: relative;
-    margin: 0 5px 0 0;
+    margin: 0 4px 0 0;
 }
 .title {
 }
@@ -60,8 +60,11 @@ h3{
     color: white;
 }
 .navi-buttons {
+    height: 42px;
     float: right;
-    margin: 10px 0 0 0;
+    margin: 17px 15px 0 0;
+    padding: 0 11px 0 0;
+    overflow: hidden;
 }
 
 .navi-button:last-child{
@@ -69,25 +72,28 @@ h3{
 }
 
 .navi-button {
-    display: inline-block;
+    padding: 3px 20px 3px 20px;
+    position: relative;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     color: white;
     text-decoration: none;
-    font-weight: 100;
-    font-size: small;
     text-align: center;
-    padding: 5px 10px;
     border-right: 1px solid #000000;
 }
 .navi-button:hover {
-    display: inline-block;
+    padding: 3px 20px 3px 20px;
+    position: relative;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     color: white;
-    font-weight: 100;
-    font-size: small;
     text-decoration: none;
+    text-align: center;
+    border-right: 1px solid #000000;
     background: #568cbc;    
     border-radius: 5px;
-    text-align: center;
-    padding: 5px 10px;
 }
 
 
@@ -97,7 +103,6 @@ h3{
     background: white;
     border-radius: 5px;
     padding: 50px 0 0 0;
-    background: white;
 }
 .main-title {
     text-align: inherit;
