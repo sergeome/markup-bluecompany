@@ -20,15 +20,25 @@ p {
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("fonts/GOTHAM-BOLD.TTF");
+}
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("fonts/GOTHAM-THIN.TTF");
+}
+
 h1{
+    font-family: "Gotham Bold";
+    font-size: 28px;
     padding: 5px 0 0 0;
-    font-size: large;
     color: white;
 }
 h2{
-    font-size: small;
+    font-family: "Gotham Thin";
+    font-size: 16px;
     color: #81b6e5;
-    font-weight: 100;
 }
 h3{
     font-weight: bolder;
@@ -68,6 +78,10 @@ h3{
 }
 
 .navi-button:last-child{
+    border-right: none;
+}
+
+.navi-button:last-child:hover{
     border-right: none;
 }
 
