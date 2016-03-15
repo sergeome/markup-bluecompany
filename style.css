@@ -85,7 +85,7 @@ h3{
 }
 
 .navi-button {
-    padding: 10px 20px;
+    padding: 4px 20px;
     position: relative;
     float: left;
     font-family: 'Roboto', sans-serif;
@@ -96,7 +96,7 @@ h3{
     border-right: 1px solid #0c3559;
 }
 .navi-button:hover {
-    padding: 10px 20px;
+    padding: 4px 20px;
     position: relative;
     float: left;
     font-family: 'Roboto', sans-serif;
