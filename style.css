@@ -31,18 +31,18 @@ a{
 }
 
 h1{
-    font-family: "Gotham Bold", sans-serif;;
+    font-family: "Gotham Bold", sans-serif;
     font-size: 28px;
     padding: 5px 0 0 0;
     color: white;
 }
 h2{
-    font-family: "Gotham Thin", sans-serif;;
+    font-family: "Gotham Thin", sans-serif;
     font-size: 16px;
     color: #81b6e5;
 }
 h3{
-    font-family: "Roboto Black", sans-serif;;
+    font-family: "Roboto Black", sans-serif;
     font-size: 40px;
     text-align: center;
     color: #184771;
@@ -71,11 +71,9 @@ h3{
     color: white;
 }
 .navi-buttons {
-    height: 42px;
     float: right;
     margin: 17px 15px 0 0;
     padding: 0 11px 0 0;
-    overflow: hidden;
 }
 
 .navi-button:last-child{
@@ -87,7 +85,7 @@ h3{
 }
 
 .navi-button {
-    padding: 3px 20px 3px 20px;
+    padding: 10px 20px;
     position: relative;
     float: left;
     font-family: 'Roboto', sans-serif;
@@ -95,10 +93,10 @@ h3{
     color: white;
     text-decoration: none;
     text-align: center;
-    border-right: 1px solid #000000;
+    border-right: 1px solid #0c3559;
 }
 .navi-button:hover {
-    padding: 3px 20px 3px 20px;
+    padding: 10px 20px;
     position: relative;
     float: left;
     font-family: 'Roboto', sans-serif;
@@ -106,9 +104,8 @@ h3{
     color: white;
     text-decoration: none;
     text-align: center;
-    border-right: 1px solid #000000;
-    background: #568cbc;    
-    border-radius: 5px;
+    border-right: 1px solid #0c3559;
+    background: url("extracted/hover.png") no-repeat 50% 10%;
 }
 
 .main {
@@ -207,16 +204,49 @@ h3{
 }
 
 .footer {
-    margin: 10px 0 0 0;
-    padding: 0 0 0 40px;
+    margin: 20px 0 129px 0;
+    padding: 0 27px 0 26px;
     height: auto;
+    font-size: 13px;
+    color: #91afc9;
 }
 
 .copyright {
     float: left;
-    color: white;
 }
 
 .twitter {
-    color: blue;
+    font-size: inherit;
+    color: inherit;
+}
+.twitter-icon{
+    vertical-align: middle;
+    margin: 0 7px 0 11px;
+}
+.twitter:hover{
+    text-decoration: underline;
+}
+
+.footer-navigation{
+    float: right;
+}
+
+.footer-button {
+    float: left;
+    font-size: 13px;
+    color: #91afc9;
+    border-right: 1px solid #91afc9;
+    padding: 0 10px 0;
+}
+
+.footer-button:hover{
+    text-decoration: underline;
+}
+
+.footer-button:last-child{
+    border-right: none;
+}
+
+.footer-button:last-child:hover{
+    border-right: none;
 }
