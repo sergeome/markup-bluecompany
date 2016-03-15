@@ -105,7 +105,8 @@ h3{
     text-decoration: none;
     text-align: center;
     border-right: 1px solid #0c3559;
-    background: url("extracted/hover.png") no-repeat 50% 10%;
+    background: url("extracted/hover.png") no-repeat top center;
+    background-size: cover;
 }
 
 .main {
