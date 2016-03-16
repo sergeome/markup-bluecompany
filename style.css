@@ -51,10 +51,13 @@ h3{
     width: 1156px;
     margin: 0 auto 0 auto;
 }
-.header {    
-    margin: 56px 0 29px 0;
+.header {
+    float: left;
+    width: 100%;
+    margin: 56px 0 23px 0;
 }
 .left-title {
+    float: left;
     margin: 0 0 0 22px;
 }
 .logo {
@@ -62,13 +65,8 @@ h3{
     position: relative;
     margin: 0 4px 0 0;
 }
-.title {
-}
-.title-font{
-    text-align: inherit;
-    margin: 0;
-    padding: 0;
-    color: white;
+.title-text {
+    float: right;
 }
 .navi-buttons {
     float: right;
