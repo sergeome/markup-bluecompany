@@ -129,6 +129,8 @@ h3{
     margin: 0;
 }
 .offers {
+    display: block;
+    float: left;
     border-top: 1px solid #dedede;
     padding: 42px 30px 33px 30px;
 }
@@ -191,6 +193,7 @@ h3{
 }
 
 .services {
+    clear: both;
     border-radius: 0 0 5px 5px;
     padding: 43px 31px 33px 30px;
     background: linear-gradient(to top, #f3f7f9, #e4eef4);
