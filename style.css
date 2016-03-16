@@ -216,16 +216,18 @@ h3{
 .copyright {
     float: left;
     margin: 0 10px 0 30px;
+    padding: 3px 0 0 0;
 }
 
 .social {
     float: left;
     background: url("extracted/Twitter.png") no-repeat 0 0;
     height: 23px;
+    padding: 3px 0 0 0;
 }
 
 .twitter{
-    color: #91afc9;
+    color: #5eacda;
     padding: 4px 0 0 33px;
 }
 
@@ -238,6 +240,7 @@ h3{
 
 .footer-navigation{
     float: right;
+    padding: 3px 0 0 0;
 }
 
 .footer-button {
