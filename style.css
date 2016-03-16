@@ -69,42 +69,64 @@ h3{
     float: right;
 }
 .navi-buttons {
-    float: right;
-    margin: 17px 15px 0 0;
+    max-width: 700px;
+    height: 42px;
+    margin: 17px 1px 0 0;
     padding: 0 11px 0 0;
+    float: right;
+    overflow: hidden;
 }
 
-.navi-button:last-child{
-    border-right: none;
-}
-
-.navi-button:last-child:hover{
-    border-right: none;
-}
-
-.navi-button {
-    padding: 4px 20px;
-    position: relative;
+.navi-buttons li {
+    height: 42px;
+    margin: 0 2px;
+    padding: 0 0 0 16px;
     float: left;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-right: 1px solid #0c3559;
+    list-style: none;
+    background: url("extracted/nav.png") no-repeat 0 -134px;
 }
-.navi-button:hover {
-    padding: 4px 20px;
-    position: relative;
+
+.navi-buttons li:first-child{
+    background: none;
+}
+
+.navi-buttons li a {
+    height: 31px;
+    padding: 11px 10px 0;
     float: left;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: white;
+    position: relative;
     text-decoration: none;
-    text-align: center;
-    border-right: 1px solid #0c3559;
-    background: url("extracted/hover.png") no-repeat top center;
-    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    background: url("extracted/nav.png") repeat-x 0 -9000px;
+}
+
+.navi-buttons li a:hover,.navi-buttons li.active a {
+    color: #fff;
+    background-position: 0 0;
+}
+
+.navi-buttons li a:hover:before, .navi-buttons li a:hover:after, .navi-buttons li.active a:before, .navi-buttons li.active a:after{
+    display: block;
+}
+
+.navi-buttons li a:before, .navi-buttons li a:after{
+    width: 12px;
+    height: 42px;
+    content: '';
+    position: absolute;
+    top: 0;
+    display: none;
+    background: url("extracted/nav.png") no-repeat 0 -9000px;
+}
+
+.navi-buttons li a:before{
+    left: -12px;
+    background-position: 0 -90px;
+}
+.navi-buttons li a:after{
+    right: -12px;
+    background-position: 0 -45px;
 }
 
 .main {
