@@ -205,24 +205,32 @@ h3{
 }
 
 .footer {
+    float: left;
+    width: 100%;
     margin: 20px 0 129px 0;
-    padding: 0 27px 0 26px;
-    height: auto;
+    padding: 0 27px 0 0;
     font-size: 13px;
     color: #91afc9;
 }
 
 .copyright {
     float: left;
+    margin: 0 10px 0 30px;
 }
 
-.twitter {
-    font-size: inherit;
-    color: inherit;
+.social {
+    float: left;
+    background: url("extracted/Twitter.png") no-repeat 0 0;
+    height: 23px;
 }
+
+.twitter{
+    color: #91afc9;
+    padding: 4px 0 0 33px;
+}
+
 .twitter-icon{
     vertical-align: middle;
-    margin: 0 7px 0 11px;
 }
 .twitter:hover{
     text-decoration: underline;
